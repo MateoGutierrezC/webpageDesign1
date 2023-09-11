@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../src/assets/imgs/wpback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

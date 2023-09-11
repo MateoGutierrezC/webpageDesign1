@@ -1,0 +1,50 @@
+nav{
+    position:sticky;
+    max-width: 100vw;
+    display: flex;
+    padding: 2rem 3rem;
+    background:transparent;
+    backdrop-filter: blur(5px);
+}
+.Navbar__Menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 60vw;
+}
+
+.Navbar__SignIn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40vw;
+    gap: 1rem;
+}
+
+.Navbar__SignIn .NavBar__Paragraph{
+    width: 15vw;
+}
+
+
+.Navbar__SignIn .SignIn__Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    box-shadow: 6px 6px 12px #434040,
+    -6px -6px 12px #fff;
+    transition:  0.3s ease;
+}
+
+.SignIn__Button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s all;
+}
+

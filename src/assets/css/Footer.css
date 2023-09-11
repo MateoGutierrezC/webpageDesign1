@@ -1,0 +1,53 @@
+footer{
+    display:flex ;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+/* left-side */
+.Demo{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    gap: 2rem;
+}
+
+.Demo__Link{
+    width: fit-content;
+    height: fit-content;
+    padding: 1.5rem 2rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.Demo__Link:hover{
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+
+
+.Demo__Text{
+    width: 18vw;
+}
+
+
+
+
+/* right-side */
+
+.Learn__More{
+    display: flex;
+    width: 50vw;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.Learn__More-Text{
+    width: 15vw;
+}
+.Learn__More-Link{
+    width: 15vw;
+    text-decoration: none;
+    color: black;
+}
